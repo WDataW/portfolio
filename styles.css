@@ -1,0 +1,57 @@
+
+  
+html,body{
+  width: 100%;
+  margin: 0;
+}
+header{
+  
+  background-color: rgba(206, 206, 206, 0.301);
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+header img{
+
+ border-radius: 50%;
+  width: 30%;
+}
+main{
+display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+section{
+  width: 85%;
+  padding: 0.9rem;
+  border-radius: 0.1rem;
+  background-color: rgba(214, 214, 214, 0.427);
+  margin-bottom: 1rem;
+}
+.my-work{
+  display: flex;
+  flex-flow: column nowrap;
+}
+.project-parent{
+  
+  align-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+}
+.projects{
+  flex: 0 0 150px;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+  border: 1px solid gray;
+  line-height: 150px;
+}
+footer{
+  text-align: center;
+  background-color:rgba(206, 206, 206, 0.301) ;
+  border-radius: 1rem;
+  padding: 1rem;
+}
